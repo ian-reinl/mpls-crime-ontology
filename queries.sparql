@@ -1,0 +1,26 @@
+PREFIX mpls: <https://ian-reinl.github.io/mpls-crime-ontology/ontology.ttl#>
+PREFIX bfo:  <http://purl.obolibrary.org/obo/>
+
+### Q1: List all Minneapolis neighborhoods
+
+SELECT ?name ?number
+WHERE {
+  ?n a mpls:MinneapolisNeighborhood ;
+     mpls:neighborhoodName   ?name ;
+     mpls:neighborhoodNumber ?number .
+}
+ORDER BY ?number
+
+### Q2: Incidents in a specific neighborhood
+
+
+SELECT ?caseNumber ?offense ?occurredDate
+WHERE {
+  ?n a mpls:MinneapolisNeighborhood ;
+     mpls:neighborhoodName "Corcoran" ;
+     ^bfo:BFO_0000066 ?incident .
+  ?incident mpls:caseNumber   ?caseNumber ;
+            mpls:offense      ?offense ;
+            mpls:occurredDate ?occurredDate .
+}
+ORDER BY ?occurredDate
