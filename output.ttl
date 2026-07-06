@@ -1,6 +1,5 @@
-@prefix : <urn:absolute:h/> .
+@prefix : <https://ian-reinl.github.io/mpls-crime-ontology/Crime_and_Neighborhoods.ttl#> .
 @prefix bfo: <http://purl.obolibrary.org/obo/> .
-@prefix mpls: <https://ian-reinl.github.io/mpls-crime-ontology/ontology.ttl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8,1453 +7,8 @@
 bfo:BFO_0000066 rdfs:domain :CrimeIncident ;
     rdfs:range :Neighborhood .
 
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704175> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0019XX 35TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-704175"^^xsd:string ;
-    mpls:occurredDate "2020-07-20T19:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Burglary/Breaking & Entering "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-07-21T16:24:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704215> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0031XX 19TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-704215"^^xsd:string ;
-    mpls:occurredDate "2020-07-22T03:15:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-07-22T18:05:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704314> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0035XX 24TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-704314"^^xsd:string ;
-    mpls:occurredDate "2020-07-25T15:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Burglary/Breaking & Entering "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-07-26T12:26:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704655> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0016XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-704655"^^xsd:string ;
-    mpls:occurredDate "2020-08-02T09:25:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-08-04T11:59:00+00:00"^^xsd:dateTime ;
-    mpls:ward 12 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704723> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0031XX 19TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-704723"^^xsd:string ;
-    mpls:occurredDate "2020-08-05T15:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-08-05T19:28:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704982> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0035XX 24TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-704982"^^xsd:string ;
-    mpls:occurredDate "2020-08-12T18:10:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-08-12T19:56:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704996> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0028XX CEDAR AVE S"^^xsd:string ;
-    mpls:caseNumber "20-704996"^^xsd:string ;
-    mpls:occurredDate "2020-05-29T13:35:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-08-13T13:41:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705426> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0035XX 24TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-705426"^^xsd:string ;
-    mpls:occurredDate "2020-08-21T13:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-08-26T12:34:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705462> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0035XX 24TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-705462"^^xsd:string ;
-    mpls:occurredDate "2020-08-20T13:45:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-08-27T14:04:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705707> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0019XX 35TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-705707"^^xsd:string ;
-    mpls:occurredDate "2020-09-02T04:18:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-09-02T21:07:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705755> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0016XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-705755"^^xsd:string ;
-    mpls:occurredDate "2020-09-04T08:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-09-04T12:37:00+00:00"^^xsd:dateTime ;
-    mpls:ward 12 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705761> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0031XX 19TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-705761"^^xsd:string ;
-    mpls:occurredDate "2020-08-30T08:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-09-04T14:05:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705790> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0035XX 24TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-705790"^^xsd:string ;
-    mpls:occurredDate "2020-09-06T00:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Burglary/Breaking & Entering "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-09-06T13:40:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705845> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 18TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-705845"^^xsd:string ;
-    mpls:occurredDate "2020-09-06T10:26:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-09-08T15:39:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706555> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 23RD AVE S"^^xsd:string ;
-    mpls:caseNumber "20-706555"^^xsd:string ;
-    mpls:occurredDate "2020-10-01T09:50:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-01T12:05:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706670> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0019XX 35TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-706670"^^xsd:string ;
-    mpls:occurredDate "2020-10-05T18:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-05T20:50:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706683> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 18TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-706683"^^xsd:string ;
-    mpls:occurredDate "2020-09-23T18:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-06T12:29:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706793> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0019XX 35TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-706793"^^xsd:string ;
-    mpls:occurredDate "2020-10-08T08:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-09T12:48:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706923> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0035XX 24TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-706923"^^xsd:string ;
-    mpls:occurredDate "2020-10-13T12:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-14T12:27:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707203> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 23RD AVE S"^^xsd:string ;
-    mpls:caseNumber "20-707203"^^xsd:string ;
-    mpls:occurredDate "2020-10-22T01:05:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-22T08:11:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707247> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0019XX 35TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-707247"^^xsd:string ;
-    mpls:occurredDate "2020-10-22T16:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-23T13:18:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707287> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0019XX 35TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-707287"^^xsd:string ;
-    mpls:occurredDate "2020-10-24T15:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft of Motor Vehicle Parts or Accessories "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-25T15:47:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707339> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 23RD AVE S"^^xsd:string ;
-    mpls:caseNumber "20-707339"^^xsd:string ;
-    mpls:occurredDate "2020-10-26T17:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-27T08:26:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707408> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 23RD AVE S"^^xsd:string ;
-    mpls:caseNumber "20-707408"^^xsd:string ;
-    mpls:occurredDate "2020-10-23T07:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-10-28T15:30:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707620> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0019XX 35TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-707620"^^xsd:string ;
-    mpls:occurredDate "2020-11-04T10:20:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-11-04T10:59:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707660> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 23RD AVE S"^^xsd:string ;
-    mpls:caseNumber "20-707660"^^xsd:string ;
-    mpls:occurredDate "2020-11-04T17:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-11-05T12:41:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707682> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0019XX 35TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-707682"^^xsd:string ;
-    mpls:occurredDate "2020-10-22T21:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-11-05T21:11:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707687> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0019XX 35TH ST E"^^xsd:string ;
-    mpls:caseNumber "20-707687"^^xsd:string ;
-    mpls:occurredDate "2020-11-05T02:14:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-11-05T23:46:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707727> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 23RD AVE S"^^xsd:string ;
-    mpls:caseNumber "20-707727"^^xsd:string ;
-    mpls:occurredDate "2020-11-07T18:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-11-08T11:24:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707884> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0035XX 24TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-707884"^^xsd:string ;
-    mpls:occurredDate "2020-11-01T01:32:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-11-13T12:51:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707953> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 23RD AVE S"^^xsd:string ;
-    mpls:caseNumber "20-707953"^^xsd:string ;
-    mpls:occurredDate "2020-11-13T06:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft of Motor Vehicle Parts or Accessories "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-11-16T16:35:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707956> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 23RD AVE S"^^xsd:string ;
-    mpls:caseNumber "20-707956"^^xsd:string ;
-    mpls:occurredDate "2020-10-12T00:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Identity Theft "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-11-16T17:23:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-708091> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0035XX 24TH AVE S"^^xsd:string ;
-    mpls:caseNumber "20-708091"^^xsd:string ;
-    mpls:occurredDate "2020-11-22T00:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft of Motor Vehicle Parts or Accessories "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-11-22T12:44:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-708448> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
-    mpls:address "0032XX 23RD AVE S"^^xsd:string ;
-    mpls:caseNumber "20-708448"^^xsd:string ;
-    mpls:occurredDate "2020-12-04T04:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2020-12-07T13:05:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-105527> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX NICOLLET AVE"^^xsd:string ;
-    mpls:caseNumber "22-105527"^^xsd:string ;
-    mpls:occurredDate "2022-05-16T22:40:25+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-05-16T22:40:25+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-132301> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX NICOLLET AVE"^^xsd:string ;
-    mpls:caseNumber "22-132301"^^xsd:string ;
-    mpls:occurredDate "2022-06-15T11:30:46+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-06-15T11:30:46+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-136717> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX NICOLLET AVE"^^xsd:string ;
-    mpls:caseNumber "22-136717"^^xsd:string ;
-    mpls:occurredDate "2022-06-19T22:11:59+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-06-19T22:11:59+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-143423> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0018XX STEVENS AVE"^^xsd:string ;
-    mpls:caseNumber "22-143423"^^xsd:string ;
-    mpls:occurredDate "2022-06-27T04:03:48+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-06-27T04:03:48+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-147075> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0017XX 3RD AVE S"^^xsd:string ;
-    mpls:caseNumber "22-147075"^^xsd:string ;
-    mpls:occurredDate "2022-06-30T22:27:42+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-06-30T22:27:42+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-162753> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0018XX 1ST AVE S"^^xsd:string ;
-    mpls:caseNumber "22-162753"^^xsd:string ;
-    mpls:occurredDate "2022-07-17T17:10:36+00:00"^^xsd:dateTime ;
-    mpls:offense "Shooting (PFE)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-07-17T17:10:36+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-165022> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0000XX LYNDALE AVE S TO EB I94"^^xsd:string ;
-    mpls:caseNumber "22-165022"^^xsd:string ;
-    mpls:occurredDate "2022-07-20T01:39:33+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-07-20T01:39:33+00:00"^^xsd:dateTime ;
-    mpls:ward 7 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-168444> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0018XX STEVENS AVE"^^xsd:string ;
-    mpls:caseNumber "22-168444"^^xsd:string ;
-    mpls:occurredDate "2022-07-23T18:57:18+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-07-23T18:57:18+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-172455> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0001XX 18TH ST E"^^xsd:string ;
-    mpls:caseNumber "22-172455"^^xsd:string ;
-    mpls:occurredDate "2022-07-27T22:34:31+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-07-27T22:34:31+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-177021> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX NICOLLET AVE"^^xsd:string ;
-    mpls:caseNumber "22-177021"^^xsd:string ;
-    mpls:occurredDate "2022-08-01T20:56:16+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-08-01T20:56:16+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-181851> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0018XX LASALLE AVE"^^xsd:string ;
-    mpls:caseNumber "22-181851"^^xsd:string ;
-    mpls:occurredDate "2022-08-06T22:00:18+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-08-06T22:00:18+00:00"^^xsd:dateTime ;
-    mpls:ward 7 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-184766> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0018XX 2ND AVE S"^^xsd:string ;
-    mpls:caseNumber "22-184766"^^xsd:string ;
-    mpls:occurredDate "2022-08-10T08:59:06+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2022-08-10T08:59:06+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-250864> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX 1ST AVE S"^^xsd:string ;
-    mpls:caseNumber "24-250864"^^xsd:string ;
-    mpls:occurredDate "2024-09-03T01:05:52+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2024-09-03T01:05:52+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-252975> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0018XX 1ST AVE S"^^xsd:string ;
-    mpls:caseNumber "24-252975"^^xsd:string ;
-    mpls:occurredDate "2024-09-04T22:30:42+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2024-09-04T22:30:42+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-321229> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0001XX GROVELAND AVE"^^xsd:string ;
-    mpls:caseNumber "24-321229"^^xsd:string ;
-    mpls:occurredDate "2024-11-07T21:19:54+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2024-11-07T21:19:54+00:00"^^xsd:dateTime ;
-    mpls:ward 7 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-365603> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX STEVENS AVE"^^xsd:string ;
-    mpls:caseNumber "24-365603"^^xsd:string ;
-    mpls:occurredDate "2024-12-27T02:32:46+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2024-12-27T02:32:46+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-711756> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0035XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-711756"^^xsd:string ;
-    mpls:occurredDate "2024-08-21T23:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-08-23T21:05:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-711764> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0033XX ELLIOT AVE"^^xsd:string ;
-    mpls:caseNumber "24-711764"^^xsd:string ;
-    mpls:occurredDate "2024-08-23T00:40:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-08-25T00:53:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712167> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0010XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "24-712167"^^xsd:string ;
-    mpls:occurredDate "2024-08-29T11:20:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-08-29T13:40:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712320> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0035XX 11TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-712320"^^xsd:string ;
-    mpls:occurredDate "2024-08-31T23:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Burglary/Breaking & Entering "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-01T12:52:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712381> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0035XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-712381"^^xsd:string ;
-    mpls:occurredDate "2024-09-03T14:55:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-03T16:30:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712680> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0033XX ELLIOT AVE"^^xsd:string ;
-    mpls:caseNumber "24-712680"^^xsd:string ;
-    mpls:occurredDate "2024-09-02T03:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-09T12:34:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712770> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0032XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-712770"^^xsd:string ;
-    mpls:occurredDate "2024-09-07T02:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-07T10:53:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712900> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0035XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-712900"^^xsd:string ;
-    mpls:occurredDate "2024-09-10T23:35:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-11T13:44:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712993> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0030XX 13TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-712993"^^xsd:string ;
-    mpls:occurredDate "2024-09-04T03:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-12T12:49:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713042> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0016XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "24-713042"^^xsd:string ;
-    mpls:occurredDate "2024-09-11T00:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-13T10:00:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713045> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0035XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-713045"^^xsd:string ;
-    mpls:occurredDate "2024-09-12T22:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-13T10:19:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713054> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0032XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-713054"^^xsd:string ;
-    mpls:occurredDate "2024-09-13T11:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-13T12:18:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713138> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0030XX 13TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-713138"^^xsd:string ;
-    mpls:occurredDate "2024-09-15T18:25:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-15T18:50:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713183> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0010XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "24-713183"^^xsd:string ;
-    mpls:occurredDate "2024-09-16T07:10:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft of Motor Vehicle Parts or Accessories "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-16T11:22:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713308> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0032XX 14TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-713308"^^xsd:string ;
-    mpls:occurredDate "2024-09-09T00:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-17T19:13:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713526> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0030XX 13TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-713526"^^xsd:string ;
-    mpls:occurredDate "2024-09-22T14:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-23T15:20:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713528> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0016XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "24-713528"^^xsd:string ;
-    mpls:occurredDate "2024-09-05T16:10:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-05T19:35:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713648> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0035XX 11TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-713648"^^xsd:string ;
-    mpls:occurredDate "2024-09-20T14:05:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Burglary/Breaking & Entering "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-22T14:13:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713701> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0035XX 11TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-713701"^^xsd:string ;
-    mpls:occurredDate "2024-09-19T01:25:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-24T20:32:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713738> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0030XX 13TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-713738"^^xsd:string ;
-    mpls:occurredDate "2024-09-18T18:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-23T20:57:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713988> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0016XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "24-713988"^^xsd:string ;
-    mpls:occurredDate "2024-09-27T21:52:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-28T12:58:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-714087> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0016XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "24-714087"^^xsd:string ;
-    mpls:occurredDate "2024-09-22T01:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-09-28T14:28:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-714385> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0033XX ELLIOT AVE"^^xsd:string ;
-    mpls:caseNumber "24-714385"^^xsd:string ;
-    mpls:occurredDate "2024-09-27T14:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-10-03T16:27:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-714962> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0032XX 14TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-714962"^^xsd:string ;
-    mpls:occurredDate "2024-10-09T02:13:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-10-12T20:15:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715046> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0028XX 10TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-715046"^^xsd:string ;
-    mpls:occurredDate "2024-10-14T13:45:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-10-14T17:41:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715333> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0032XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-715333"^^xsd:string ;
-    mpls:occurredDate "2024-10-18T01:05:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-10-18T11:27:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715502> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0032XX 18TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-715502"^^xsd:string ;
-    mpls:occurredDate "2024-10-17T16:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-10-21T11:23:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715602> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0035XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-715602"^^xsd:string ;
-    mpls:occurredDate "2024-10-21T20:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-10-22T15:19:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715603> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0033XX ELLIOT AVE"^^xsd:string ;
-    mpls:caseNumber "24-715603"^^xsd:string ;
-    mpls:occurredDate "2024-10-22T16:15:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-10-22T18:14:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715742> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0032XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-715742"^^xsd:string ;
-    mpls:occurredDate "2024-10-09T20:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Building "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-10-23T16:53:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715876> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0010XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "24-715876"^^xsd:string ;
-    mpls:occurredDate "2024-10-25T14:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "All Other Larceny "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-10-26T12:16:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-716324> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0032XX 14TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-716324"^^xsd:string ;
-    mpls:occurredDate "2024-10-31T20:45:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-11-01T14:00:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-716350> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0010XX 37TH ST E"^^xsd:string ;
-    mpls:caseNumber "24-716350"^^xsd:string ;
-    mpls:occurredDate "2024-10-30T10:00:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Theft From Motor Vehicle "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-11-01T18:19:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-716883> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
-    mpls:address "0032XX 16TH AVE S"^^xsd:string ;
-    mpls:caseNumber "24-716883"^^xsd:string ;
-    mpls:occurredDate "2024-11-08T16:30:00+00:00"^^xsd:dateTime ;
-    mpls:offense "Intimidation "^^xsd:string ;
-    mpls:precinct 3 ;
-    mpls:reportedDate "2024-11-10T17:45:00+00:00"^^xsd:dateTime ;
-    mpls:ward 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-000318> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0017XX 3RD AVE S"^^xsd:string ;
-    mpls:caseNumber "25-000318"^^xsd:string ;
-    mpls:occurredDate "2025-01-01T05:26:16+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-01-01T05:26:16+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-005146> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0001XX 18TH ST E"^^xsd:string ;
-    mpls:caseNumber "25-005146"^^xsd:string ;
-    mpls:occurredDate "2025-01-07T01:19:58+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-01-07T01:19:58+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-008564> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0001XX 18TH ST E"^^xsd:string ;
-    mpls:caseNumber "25-008564"^^xsd:string ;
-    mpls:occurredDate "2025-01-10T19:26:53+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-01-10T19:26:53+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-017488> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0001XX 18TH ST E"^^xsd:string ;
-    mpls:caseNumber "25-017488"^^xsd:string ;
-    mpls:occurredDate "2025-01-22T03:09:15+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-01-22T03:09:15+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-018334> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0001XX 18TH ST E"^^xsd:string ;
-    mpls:caseNumber "25-018334"^^xsd:string ;
-    mpls:occurredDate "2025-01-23T02:58:10+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-01-23T02:58:10+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-026761> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX NICOLLET AVE"^^xsd:string ;
-    mpls:caseNumber "25-026761"^^xsd:string ;
-    mpls:occurredDate "2025-02-01T19:24:05+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-02-01T19:24:05+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-038158> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0018XX NICOLLET AVE"^^xsd:string ;
-    mpls:caseNumber "25-038158"^^xsd:string ;
-    mpls:occurredDate "2025-02-15T06:41:16+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-02-15T06:41:16+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-064106> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0018XX LASALLE AVE"^^xsd:string ;
-    mpls:caseNumber "25-064106"^^xsd:string ;
-    mpls:occurredDate "2025-03-15T00:28:29+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-03-15T00:28:29+00:00"^^xsd:dateTime ;
-    mpls:ward 7 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-078715> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0001XX 18TH ST E"^^xsd:string ;
-    mpls:caseNumber "25-078715"^^xsd:string ;
-    mpls:occurredDate "2025-03-29T06:57:34+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-03-29T06:57:34+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-084597> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX 1ST AVE S"^^xsd:string ;
-    mpls:caseNumber "25-084597"^^xsd:string ;
-    mpls:occurredDate "2025-04-03T23:52:28+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-04-03T23:52:28+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-100696> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0001XX 18TH ST E"^^xsd:string ;
-    mpls:caseNumber "25-100696"^^xsd:string ;
-    mpls:occurredDate "2025-04-19T05:12:56+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-04-19T05:12:56+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-102305> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0003XX FRANKLIN AVE W"^^xsd:string ;
-    mpls:caseNumber "25-102305"^^xsd:string ;
-    mpls:occurredDate "2025-04-20T21:34:23+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-04-20T21:34:23+00:00"^^xsd:dateTime ;
-    mpls:ward 10 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-121317> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX NICOLLET AVE"^^xsd:string ;
-    mpls:caseNumber "25-121317"^^xsd:string ;
-    mpls:occurredDate "2025-05-08T00:36:23+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-05-08T00:36:23+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-162407> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX 1ST AVE S"^^xsd:string ;
-    mpls:caseNumber "25-162407"^^xsd:string ;
-    mpls:occurredDate "2025-06-14T21:07:15+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-06-14T21:07:15+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-164818> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0017XX 3RD AVE S"^^xsd:string ;
-    mpls:caseNumber "25-164818"^^xsd:string ;
-    mpls:occurredDate "2025-06-17T05:15:53+00:00"^^xsd:dateTime ;
-    mpls:offense "ShotSpotter Activation (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-06-17T05:15:53+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-192345> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "000XX 19TH ST E"^^xsd:string ;
-    mpls:caseNumber "25-192345"^^xsd:string ;
-    mpls:occurredDate "2025-07-11T19:01:32+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-07-11T19:01:32+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-192761> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0019XX 3RD AVE S"^^xsd:string ;
-    mpls:caseNumber "25-192761"^^xsd:string ;
-    mpls:occurredDate "2025-07-12T01:15:37+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-07-12T01:15:37+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-250407> a mpls:CrimeIncident ;
-    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
-    mpls:address "0017XX 3RD AVE S"^^xsd:string ;
-    mpls:caseNumber "25-250407"^^xsd:string ;
-    mpls:occurredDate "2025-09-01T22:29:06+00:00"^^xsd:dateTime ;
-    mpls:offense "Sound of Shots Fired (P)"^^xsd:string ;
-    mpls:precinct 5 ;
-    mpls:reportedDate "2025-09-01T22:29:06+00:00"^^xsd:dateTime ;
-    mpls:ward 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/1> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2586873.012 ;
-    mpls:neighborhoodName "Shingle Creek"^^xsd:string ;
-    mpls:neighborhoodNumber 1 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/11> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 7769663.461 ;
-    mpls:neighborhoodName "Columbia Park"^^xsd:string ;
-    mpls:neighborhoodNumber 11 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/12> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4581583.242 ;
-    mpls:neighborhoodName "Waite Park"^^xsd:string ;
-    mpls:neighborhoodNumber 12 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/13> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3646205.813 ;
-    mpls:neighborhoodName "Marshall Terrace"^^xsd:string ;
-    mpls:neighborhoodNumber 13 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/14> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1463844.672 ;
-    mpls:neighborhoodName "Bottineau"^^xsd:string ;
-    mpls:neighborhoodNumber 14 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/15> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2762743.879 ;
-    mpls:neighborhoodName "Holland"^^xsd:string ;
-    mpls:neighborhoodNumber 15 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/16> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3455233.516 ;
-    mpls:neighborhoodName "Audubon Park"^^xsd:string ;
-    mpls:neighborhoodNumber 16 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/17> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1995455.016 ;
-    mpls:neighborhoodName "Sheridan"^^xsd:string ;
-    mpls:neighborhoodNumber 17 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/18> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1598296.023 ;
-    mpls:neighborhoodName "Logan Park"^^xsd:string ;
-    mpls:neighborhoodNumber 18 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/19> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3124688.891 ;
-    mpls:neighborhoodName "Windom Park"^^xsd:string ;
-    mpls:neighborhoodNumber 19 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/2> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4164945.086 ;
-    mpls:neighborhoodName "Lind - Bohanon"^^xsd:string ;
-    mpls:neighborhoodNumber 2 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/20> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3792218.875 ;
-    mpls:neighborhoodName "Northeast Park"^^xsd:string ;
-    mpls:neighborhoodNumber 20 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/21> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2533499.199 ;
-    mpls:neighborhoodName "St. Anthony West"^^xsd:string ;
-    mpls:neighborhoodNumber 21 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/22> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1045666.547 ;
-    mpls:neighborhoodName "St. Anthony East"^^xsd:string ;
-    mpls:neighborhoodNumber 22 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/23> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1174157.023 ;
-    mpls:neighborhoodName "Beltrami"^^xsd:string ;
-    mpls:neighborhoodNumber 23 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/24> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4127460.031 ;
-    mpls:neighborhoodName "Jordan"^^xsd:string ;
-    mpls:neighborhoodNumber 24 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/25> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4897950.457 ;
-    mpls:neighborhoodName "Hawthorne"^^xsd:string ;
-    mpls:neighborhoodNumber 25 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/26> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 5487249.762 ;
-    mpls:neighborhoodName "Willard - Hay"^^xsd:string ;
-    mpls:neighborhoodNumber 26 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/27> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 5497687.484 ;
-    mpls:neighborhoodName "Near - North"^^xsd:string ;
-    mpls:neighborhoodNumber 27 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/28> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2946514.758 ;
-    mpls:neighborhoodName "Harrison"^^xsd:string ;
-    mpls:neighborhoodNumber 28 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/29> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1066209.418 ;
-    mpls:neighborhoodName "Sumner - Glenwood"^^xsd:string ;
-    mpls:neighborhoodNumber 29 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/3> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3546230.137 ;
-    mpls:neighborhoodName "Victory"^^xsd:string ;
-    mpls:neighborhoodNumber 3 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/31> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2420995.289 ;
-    mpls:neighborhoodName "Loring Park"^^xsd:string ;
-    mpls:neighborhoodNumber 31 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/33> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1960440.84 ;
-    mpls:neighborhoodName "Elliot Park"^^xsd:string ;
-    mpls:neighborhoodNumber 33 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/34> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1297507.496 ;
-    mpls:neighborhoodName "Nicollet Island - East Bank"^^xsd:string ;
-    mpls:neighborhoodNumber 34 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/35> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4331243.504 ;
-    mpls:neighborhoodName "Marcy Holmes"^^xsd:string ;
-    mpls:neighborhoodNumber 35 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/37> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 5839385.906 ;
-    mpls:neighborhoodName "Como"^^xsd:string ;
-    mpls:neighborhoodNumber 37 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/38> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2971661.543 ;
-    mpls:neighborhoodName "Cedar Riverside"^^xsd:string ;
-    mpls:neighborhoodNumber 38 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/39> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 6595015.793 ;
-    mpls:neighborhoodName "Prospect Park - East River Road"^^xsd:string ;
-    mpls:neighborhoodNumber 39 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/4> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4793373.598 ;
-    mpls:neighborhoodName "Webber - Camden"^^xsd:string ;
-    mpls:neighborhoodNumber 4 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/40> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3396221.055 ;
-    mpls:neighborhoodName "University of Minnesota"^^xsd:string ;
-    mpls:neighborhoodNumber 40 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/41> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3702673.105 ;
-    mpls:neighborhoodName "Cedar - Isles - Dean"^^xsd:string ;
-    mpls:neighborhoodNumber 41 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/42> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3406933.68 ;
-    mpls:neighborhoodName "Kenwood"^^xsd:string ;
-    mpls:neighborhoodNumber 42 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/43> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3129683.113 ;
-    mpls:neighborhoodName "Lowry Hill"^^xsd:string ;
-    mpls:neighborhoodNumber 43 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/44> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1759583.73 ;
-    mpls:neighborhoodName "East Isles"^^xsd:string ;
-    mpls:neighborhoodNumber 44 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/45> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2127278.422 ;
-    mpls:neighborhoodName "Lowry Hill East"^^xsd:string ;
-    mpls:neighborhoodNumber 45 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/46> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2267811.539 ;
-    mpls:neighborhoodName "East Bde Maka Ska"^^xsd:string ;
-    mpls:neighborhoodNumber 46 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/47> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1902947.484 ;
-    mpls:neighborhoodName "South Uptown"^^xsd:string ;
-    mpls:neighborhoodNumber 47 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/49> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3447654.605 ;
-    mpls:neighborhoodName "West Maka Ska"^^xsd:string ;
-    mpls:neighborhoodNumber 49 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/5> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1935873.844 ;
-    mpls:neighborhoodName "Cleveland"^^xsd:string ;
-    mpls:neighborhoodNumber 5 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/50> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 6689057.551 ;
-    mpls:neighborhoodName "Bryn - Mawr"^^xsd:string ;
-    mpls:neighborhoodNumber 50 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/51> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4189809.336 ;
-    mpls:neighborhoodName "Whittier"^^xsd:string ;
-    mpls:neighborhoodNumber 51 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/53> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2501101.539 ;
-    mpls:neighborhoodName "Lyndale"^^xsd:string ;
-    mpls:neighborhoodNumber 53 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/54> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3014661.801 ;
-    mpls:neighborhoodName "Central"^^xsd:string ;
-    mpls:neighborhoodNumber 54 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/57> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1546416.75 ;
-    mpls:neighborhoodName "Bryant"^^xsd:string ;
-    mpls:neighborhoodNumber 57 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/58> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1908940.922 ;
-    mpls:neighborhoodName "Bancroft"^^xsd:string ;
-    mpls:neighborhoodNumber 58 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/59> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4216023.43 ;
-    mpls:neighborhoodName "Standish"^^xsd:string ;
-    mpls:neighborhoodNumber 59 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/6> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2887427.379 ;
-    mpls:neighborhoodName "Folwell"^^xsd:string ;
-    mpls:neighborhoodNumber 6 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/60> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 5218462.426 ;
-    mpls:neighborhoodName "Seward"^^xsd:string ;
-    mpls:neighborhoodNumber 60 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/61> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4409395.219 ;
-    mpls:neighborhoodName "Longfellow"^^xsd:string ;
-    mpls:neighborhoodNumber 61 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/62> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3422493.387 ;
-    mpls:neighborhoodName "Cooper"^^xsd:string ;
-    mpls:neighborhoodNumber 62 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/63> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 5496587.746 ;
-    mpls:neighborhoodName "Howe"^^xsd:string ;
-    mpls:neighborhoodNumber 63 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/64> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 6411835.324 ;
-    mpls:neighborhoodName "Hiawatha"^^xsd:string ;
-    mpls:neighborhoodNumber 64 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/65> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3581531.98 ;
-    mpls:neighborhoodName "Tangletown"^^xsd:string ;
-    mpls:neighborhoodNumber 65 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/66> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3822229.805 ;
-    mpls:neighborhoodName "Armatage"^^xsd:string ;
-    mpls:neighborhoodNumber 66 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/67> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3317391.582 ;
-    mpls:neighborhoodName "Kenny"^^xsd:string ;
-    mpls:neighborhoodNumber 67 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/68> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3790629.445 ;
-    mpls:neighborhoodName "Windom"^^xsd:string ;
-    mpls:neighborhoodNumber 68 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/69> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 7153675.281 ;
-    mpls:neighborhoodName "Linden Hills"^^xsd:string ;
-    mpls:neighborhoodNumber 69 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/7> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3174622.348 ;
-    mpls:neighborhoodName "McKinley"^^xsd:string ;
-    mpls:neighborhoodNumber 7 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/70> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 6417839.648 ;
-    mpls:neighborhoodName "East Harriet"^^xsd:string ;
-    mpls:neighborhoodNumber 70 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/71> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4308566.789 ;
-    mpls:neighborhoodName "King Field"^^xsd:string ;
-    mpls:neighborhoodNumber 71 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/72> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4516443.227 ;
-    mpls:neighborhoodName "Fulton"^^xsd:string ;
-    mpls:neighborhoodNumber 72 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/73> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 5139877.133 ;
-    mpls:neighborhoodName "Lynnhurst"^^xsd:string ;
-    mpls:neighborhoodNumber 73 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/74> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1528751.449 ;
-    mpls:neighborhoodName "Regina"^^xsd:string ;
-    mpls:neighborhoodNumber 74 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/75> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3634655.984 ;
-    mpls:neighborhoodName "Northrop"^^xsd:string ;
-    mpls:neighborhoodNumber 75 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/76> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4705807.645 ;
-    mpls:neighborhoodName "Ericsson"^^xsd:string ;
-    mpls:neighborhoodNumber 76 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/77> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1785617.109 ;
-    mpls:neighborhoodName "Field"^^xsd:string ;
-    mpls:neighborhoodNumber 77 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/78> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1699077.199 ;
-    mpls:neighborhoodName "Page"^^xsd:string ;
-    mpls:neighborhoodNumber 78 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/79> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2628768.168 ;
-    mpls:neighborhoodName "Hale"^^xsd:string ;
-    mpls:neighborhoodNumber 79 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/8> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1421622.945 ;
-    mpls:neighborhoodName "Humboldt Industrial Area"^^xsd:string ;
-    mpls:neighborhoodNumber 8 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/80> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4547968.094 ;
-    mpls:neighborhoodName "Keewaydin"^^xsd:string ;
-    mpls:neighborhoodNumber 80 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/81> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3077051.852 ;
-    mpls:neighborhoodName "Minnehaha"^^xsd:string ;
-    mpls:neighborhoodNumber 81 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/82> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 5318814.902 ;
-    mpls:neighborhoodName "Diamond Lake"^^xsd:string ;
-    mpls:neighborhoodNumber 82 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/83> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3743076.953 ;
-    mpls:neighborhoodName "Wenonah"^^xsd:string ;
-    mpls:neighborhoodNumber 83 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/84> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2785209.547 ;
-    mpls:neighborhoodName "Morris Park"^^xsd:string ;
-    mpls:neighborhoodNumber 84 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/85> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 5452599.184 ;
-    mpls:neighborhoodName "Mid - City Industrial"^^xsd:string ;
-    mpls:neighborhoodNumber 85 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/86> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 4425116.25 ;
-    mpls:neighborhoodName "North Loop"^^xsd:string ;
-    mpls:neighborhoodNumber 86 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/87> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3853389.949 ;
-    mpls:neighborhoodName "Downtown West"^^xsd:string ;
-    mpls:neighborhoodNumber 87 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/88> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1903728.598 ;
-    mpls:neighborhoodName "Downtown East"^^xsd:string ;
-    mpls:neighborhoodNumber 88 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/89> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2344520.504 ;
-    mpls:neighborhoodName "Ventura Village"^^xsd:string ;
-    mpls:neighborhoodNumber 89 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/9> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1540250.574 ;
-    mpls:neighborhoodName "Camden Industrial"^^xsd:string ;
-    mpls:neighborhoodNumber 9 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/90> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1979108.059 ;
-    mpls:neighborhoodName "Phillips West"^^xsd:string ;
-    mpls:neighborhoodNumber 90 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/91> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 1917139.719 ;
-    mpls:neighborhoodName "Midtown Phillips"^^xsd:string ;
-    mpls:neighborhoodNumber 91 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/92> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2071045.289 ;
-    mpls:neighborhoodName "East Phillips"^^xsd:string ;
-    mpls:neighborhoodNumber 92 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/ontology.ttl> a owl:Ontology ;
+<https://ian-reinl.github.io/mpls-crime-ontology/Crime_and_Neighborhoods.ttl> a owl:Ontology ;
     owl:imports <http://purl.obolibrary.org/obo/bfo/2020/bfo-core.owl> .
-
-:MinneapolisNeighborhood a owl:Class ;
-    rdfs:label "Minneapolis Neighborhood" ;
-    rdfs:comment "A neighborhood whose boundaries are defined by the City of Minneapolis and the Minneapolis Park and Recreation Board." ;
-    rdfs:subClassOf :Neighborhood .
 
 :address a owl:DatatypeProperty ;
     rdfs:domain :CrimeIncident ;
@@ -1496,28 +50,1473 @@ bfo:BFO_0000066 rdfs:domain :CrimeIncident ;
     rdfs:domain :CrimeIncident ;
     rdfs:range xsd:integer .
 
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704175> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0019XX 35TH ST E"^^xsd:string ;
+    :caseNumber "20-704175"^^xsd:string ;
+    :occurredDate "2020-07-20T19:00:00+00:00"^^xsd:dateTime ;
+    :offense "Burglary/Breaking & Entering "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-07-21T16:24:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704215> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0031XX 19TH AVE S"^^xsd:string ;
+    :caseNumber "20-704215"^^xsd:string ;
+    :occurredDate "2020-07-22T03:15:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-07-22T18:05:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704314> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0035XX 24TH AVE S"^^xsd:string ;
+    :caseNumber "20-704314"^^xsd:string ;
+    :occurredDate "2020-07-25T15:00:00+00:00"^^xsd:dateTime ;
+    :offense "Burglary/Breaking & Entering "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-07-26T12:26:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704655> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0016XX 37TH ST E"^^xsd:string ;
+    :caseNumber "20-704655"^^xsd:string ;
+    :occurredDate "2020-08-02T09:25:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-08-04T11:59:00+00:00"^^xsd:dateTime ;
+    :ward 12 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704723> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0031XX 19TH AVE S"^^xsd:string ;
+    :caseNumber "20-704723"^^xsd:string ;
+    :occurredDate "2020-08-05T15:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-08-05T19:28:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704982> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0035XX 24TH AVE S"^^xsd:string ;
+    :caseNumber "20-704982"^^xsd:string ;
+    :occurredDate "2020-08-12T18:10:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-08-12T19:56:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-704996> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0028XX CEDAR AVE S"^^xsd:string ;
+    :caseNumber "20-704996"^^xsd:string ;
+    :occurredDate "2020-05-29T13:35:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-08-13T13:41:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705426> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0035XX 24TH AVE S"^^xsd:string ;
+    :caseNumber "20-705426"^^xsd:string ;
+    :occurredDate "2020-08-21T13:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-08-26T12:34:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705462> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0035XX 24TH AVE S"^^xsd:string ;
+    :caseNumber "20-705462"^^xsd:string ;
+    :occurredDate "2020-08-20T13:45:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-08-27T14:04:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705707> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0019XX 35TH ST E"^^xsd:string ;
+    :caseNumber "20-705707"^^xsd:string ;
+    :occurredDate "2020-09-02T04:18:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-09-02T21:07:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705755> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0016XX 37TH ST E"^^xsd:string ;
+    :caseNumber "20-705755"^^xsd:string ;
+    :occurredDate "2020-09-04T08:00:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-09-04T12:37:00+00:00"^^xsd:dateTime ;
+    :ward 12 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705761> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0031XX 19TH AVE S"^^xsd:string ;
+    :caseNumber "20-705761"^^xsd:string ;
+    :occurredDate "2020-08-30T08:30:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-09-04T14:05:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705790> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0035XX 24TH AVE S"^^xsd:string ;
+    :caseNumber "20-705790"^^xsd:string ;
+    :occurredDate "2020-09-06T00:00:00+00:00"^^xsd:dateTime ;
+    :offense "Burglary/Breaking & Entering "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-09-06T13:40:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-705845> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 18TH AVE S"^^xsd:string ;
+    :caseNumber "20-705845"^^xsd:string ;
+    :occurredDate "2020-09-06T10:26:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-09-08T15:39:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706555> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 23RD AVE S"^^xsd:string ;
+    :caseNumber "20-706555"^^xsd:string ;
+    :occurredDate "2020-10-01T09:50:00+00:00"^^xsd:dateTime ;
+    :offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-01T12:05:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706670> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0019XX 35TH ST E"^^xsd:string ;
+    :caseNumber "20-706670"^^xsd:string ;
+    :occurredDate "2020-10-05T18:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-05T20:50:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706683> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 18TH AVE S"^^xsd:string ;
+    :caseNumber "20-706683"^^xsd:string ;
+    :occurredDate "2020-09-23T18:30:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-06T12:29:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706793> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0019XX 35TH ST E"^^xsd:string ;
+    :caseNumber "20-706793"^^xsd:string ;
+    :occurredDate "2020-10-08T08:30:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-09T12:48:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-706923> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0035XX 24TH AVE S"^^xsd:string ;
+    :caseNumber "20-706923"^^xsd:string ;
+    :occurredDate "2020-10-13T12:30:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-14T12:27:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707203> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 23RD AVE S"^^xsd:string ;
+    :caseNumber "20-707203"^^xsd:string ;
+    :occurredDate "2020-10-22T01:05:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-22T08:11:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707247> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0019XX 35TH ST E"^^xsd:string ;
+    :caseNumber "20-707247"^^xsd:string ;
+    :occurredDate "2020-10-22T16:30:00+00:00"^^xsd:dateTime ;
+    :offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-23T13:18:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707287> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0019XX 35TH ST E"^^xsd:string ;
+    :caseNumber "20-707287"^^xsd:string ;
+    :occurredDate "2020-10-24T15:30:00+00:00"^^xsd:dateTime ;
+    :offense "Theft of Motor Vehicle Parts or Accessories "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-25T15:47:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707339> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 23RD AVE S"^^xsd:string ;
+    :caseNumber "20-707339"^^xsd:string ;
+    :occurredDate "2020-10-26T17:00:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-27T08:26:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707408> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 23RD AVE S"^^xsd:string ;
+    :caseNumber "20-707408"^^xsd:string ;
+    :occurredDate "2020-10-23T07:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-10-28T15:30:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707620> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0019XX 35TH ST E"^^xsd:string ;
+    :caseNumber "20-707620"^^xsd:string ;
+    :occurredDate "2020-11-04T10:20:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-11-04T10:59:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707660> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 23RD AVE S"^^xsd:string ;
+    :caseNumber "20-707660"^^xsd:string ;
+    :occurredDate "2020-11-04T17:30:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-11-05T12:41:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707682> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0019XX 35TH ST E"^^xsd:string ;
+    :caseNumber "20-707682"^^xsd:string ;
+    :occurredDate "2020-10-22T21:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-11-05T21:11:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707687> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0019XX 35TH ST E"^^xsd:string ;
+    :caseNumber "20-707687"^^xsd:string ;
+    :occurredDate "2020-11-05T02:14:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-11-05T23:46:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707727> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 23RD AVE S"^^xsd:string ;
+    :caseNumber "20-707727"^^xsd:string ;
+    :occurredDate "2020-11-07T18:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-11-08T11:24:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707884> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0035XX 24TH AVE S"^^xsd:string ;
+    :caseNumber "20-707884"^^xsd:string ;
+    :occurredDate "2020-11-01T01:32:00+00:00"^^xsd:dateTime ;
+    :offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-11-13T12:51:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707953> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 23RD AVE S"^^xsd:string ;
+    :caseNumber "20-707953"^^xsd:string ;
+    :occurredDate "2020-11-13T06:00:00+00:00"^^xsd:dateTime ;
+    :offense "Theft of Motor Vehicle Parts or Accessories "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-11-16T16:35:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-707956> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 23RD AVE S"^^xsd:string ;
+    :caseNumber "20-707956"^^xsd:string ;
+    :occurredDate "2020-10-12T00:00:00+00:00"^^xsd:dateTime ;
+    :offense "Identity Theft "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-11-16T17:23:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-708091> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0035XX 24TH AVE S"^^xsd:string ;
+    :caseNumber "20-708091"^^xsd:string ;
+    :occurredDate "2020-11-22T00:30:00+00:00"^^xsd:dateTime ;
+    :offense "Theft of Motor Vehicle Parts or Accessories "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-11-22T12:44:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/20-708448> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> ;
+    :address "0032XX 23RD AVE S"^^xsd:string ;
+    :caseNumber "20-708448"^^xsd:string ;
+    :occurredDate "2020-12-04T04:00:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2020-12-07T13:05:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-105527> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX NICOLLET AVE"^^xsd:string ;
+    :caseNumber "22-105527"^^xsd:string ;
+    :occurredDate "2022-05-16T22:40:25+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-05-16T22:40:25+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-132301> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX NICOLLET AVE"^^xsd:string ;
+    :caseNumber "22-132301"^^xsd:string ;
+    :occurredDate "2022-06-15T11:30:46+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-06-15T11:30:46+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-136717> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX NICOLLET AVE"^^xsd:string ;
+    :caseNumber "22-136717"^^xsd:string ;
+    :occurredDate "2022-06-19T22:11:59+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-06-19T22:11:59+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-143423> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0018XX STEVENS AVE"^^xsd:string ;
+    :caseNumber "22-143423"^^xsd:string ;
+    :occurredDate "2022-06-27T04:03:48+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-06-27T04:03:48+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-147075> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0017XX 3RD AVE S"^^xsd:string ;
+    :caseNumber "22-147075"^^xsd:string ;
+    :occurredDate "2022-06-30T22:27:42+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-06-30T22:27:42+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-162753> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0018XX 1ST AVE S"^^xsd:string ;
+    :caseNumber "22-162753"^^xsd:string ;
+    :occurredDate "2022-07-17T17:10:36+00:00"^^xsd:dateTime ;
+    :offense "Shooting (PFE)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-07-17T17:10:36+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-165022> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0000XX LYNDALE AVE S TO EB I94"^^xsd:string ;
+    :caseNumber "22-165022"^^xsd:string ;
+    :occurredDate "2022-07-20T01:39:33+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-07-20T01:39:33+00:00"^^xsd:dateTime ;
+    :ward 7 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-168444> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0018XX STEVENS AVE"^^xsd:string ;
+    :caseNumber "22-168444"^^xsd:string ;
+    :occurredDate "2022-07-23T18:57:18+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-07-23T18:57:18+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-172455> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0001XX 18TH ST E"^^xsd:string ;
+    :caseNumber "22-172455"^^xsd:string ;
+    :occurredDate "2022-07-27T22:34:31+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-07-27T22:34:31+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-177021> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX NICOLLET AVE"^^xsd:string ;
+    :caseNumber "22-177021"^^xsd:string ;
+    :occurredDate "2022-08-01T20:56:16+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-08-01T20:56:16+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-181851> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0018XX LASALLE AVE"^^xsd:string ;
+    :caseNumber "22-181851"^^xsd:string ;
+    :occurredDate "2022-08-06T22:00:18+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-08-06T22:00:18+00:00"^^xsd:dateTime ;
+    :ward 7 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/22-184766> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0018XX 2ND AVE S"^^xsd:string ;
+    :caseNumber "22-184766"^^xsd:string ;
+    :occurredDate "2022-08-10T08:59:06+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2022-08-10T08:59:06+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-250864> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX 1ST AVE S"^^xsd:string ;
+    :caseNumber "24-250864"^^xsd:string ;
+    :occurredDate "2024-09-03T01:05:52+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2024-09-03T01:05:52+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-252975> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0018XX 1ST AVE S"^^xsd:string ;
+    :caseNumber "24-252975"^^xsd:string ;
+    :occurredDate "2024-09-04T22:30:42+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2024-09-04T22:30:42+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-321229> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0001XX GROVELAND AVE"^^xsd:string ;
+    :caseNumber "24-321229"^^xsd:string ;
+    :occurredDate "2024-11-07T21:19:54+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2024-11-07T21:19:54+00:00"^^xsd:dateTime ;
+    :ward 7 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-365603> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX STEVENS AVE"^^xsd:string ;
+    :caseNumber "24-365603"^^xsd:string ;
+    :occurredDate "2024-12-27T02:32:46+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2024-12-27T02:32:46+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-711756> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0035XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-711756"^^xsd:string ;
+    :occurredDate "2024-08-21T23:00:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-08-23T21:05:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-711764> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0033XX ELLIOT AVE"^^xsd:string ;
+    :caseNumber "24-711764"^^xsd:string ;
+    :occurredDate "2024-08-23T00:40:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-08-25T00:53:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712167> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0010XX 37TH ST E"^^xsd:string ;
+    :caseNumber "24-712167"^^xsd:string ;
+    :occurredDate "2024-08-29T11:20:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-08-29T13:40:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712320> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0035XX 11TH AVE S"^^xsd:string ;
+    :caseNumber "24-712320"^^xsd:string ;
+    :occurredDate "2024-08-31T23:30:00+00:00"^^xsd:dateTime ;
+    :offense "Burglary/Breaking & Entering "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-01T12:52:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712381> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0035XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-712381"^^xsd:string ;
+    :occurredDate "2024-09-03T14:55:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-03T16:30:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712680> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0033XX ELLIOT AVE"^^xsd:string ;
+    :caseNumber "24-712680"^^xsd:string ;
+    :occurredDate "2024-09-02T03:00:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-09T12:34:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712770> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0032XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-712770"^^xsd:string ;
+    :occurredDate "2024-09-07T02:30:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-07T10:53:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712900> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0035XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-712900"^^xsd:string ;
+    :occurredDate "2024-09-10T23:35:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-11T13:44:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-712993> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0030XX 13TH AVE S"^^xsd:string ;
+    :caseNumber "24-712993"^^xsd:string ;
+    :occurredDate "2024-09-04T03:00:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-12T12:49:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713042> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0016XX 37TH ST E"^^xsd:string ;
+    :caseNumber "24-713042"^^xsd:string ;
+    :occurredDate "2024-09-11T00:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-13T10:00:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713045> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0035XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-713045"^^xsd:string ;
+    :occurredDate "2024-09-12T22:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-13T10:19:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713054> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0032XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-713054"^^xsd:string ;
+    :occurredDate "2024-09-13T11:00:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-13T12:18:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713138> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0030XX 13TH AVE S"^^xsd:string ;
+    :caseNumber "24-713138"^^xsd:string ;
+    :occurredDate "2024-09-15T18:25:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-15T18:50:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713183> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0010XX 37TH ST E"^^xsd:string ;
+    :caseNumber "24-713183"^^xsd:string ;
+    :occurredDate "2024-09-16T07:10:00+00:00"^^xsd:dateTime ;
+    :offense "Theft of Motor Vehicle Parts or Accessories "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-16T11:22:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713308> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0032XX 14TH AVE S"^^xsd:string ;
+    :caseNumber "24-713308"^^xsd:string ;
+    :occurredDate "2024-09-09T00:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-17T19:13:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713526> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0030XX 13TH AVE S"^^xsd:string ;
+    :caseNumber "24-713526"^^xsd:string ;
+    :occurredDate "2024-09-22T14:30:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-23T15:20:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713528> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0016XX 37TH ST E"^^xsd:string ;
+    :caseNumber "24-713528"^^xsd:string ;
+    :occurredDate "2024-09-05T16:10:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-05T19:35:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713648> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0035XX 11TH AVE S"^^xsd:string ;
+    :caseNumber "24-713648"^^xsd:string ;
+    :occurredDate "2024-09-20T14:05:00+00:00"^^xsd:dateTime ;
+    :offense "Burglary/Breaking & Entering "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-22T14:13:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713701> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0035XX 11TH AVE S"^^xsd:string ;
+    :caseNumber "24-713701"^^xsd:string ;
+    :occurredDate "2024-09-19T01:25:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-24T20:32:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713738> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0030XX 13TH AVE S"^^xsd:string ;
+    :caseNumber "24-713738"^^xsd:string ;
+    :occurredDate "2024-09-18T18:30:00+00:00"^^xsd:dateTime ;
+    :offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-23T20:57:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-713988> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0016XX 37TH ST E"^^xsd:string ;
+    :caseNumber "24-713988"^^xsd:string ;
+    :occurredDate "2024-09-27T21:52:00+00:00"^^xsd:dateTime ;
+    :offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-28T12:58:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-714087> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0016XX 37TH ST E"^^xsd:string ;
+    :caseNumber "24-714087"^^xsd:string ;
+    :occurredDate "2024-09-22T01:00:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-09-28T14:28:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-714385> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0033XX ELLIOT AVE"^^xsd:string ;
+    :caseNumber "24-714385"^^xsd:string ;
+    :occurredDate "2024-09-27T14:30:00+00:00"^^xsd:dateTime ;
+    :offense "Destruction/Damage/Vandalism of Property "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-10-03T16:27:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-714962> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0032XX 14TH AVE S"^^xsd:string ;
+    :caseNumber "24-714962"^^xsd:string ;
+    :occurredDate "2024-10-09T02:13:00+00:00"^^xsd:dateTime ;
+    :offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-10-12T20:15:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715046> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0028XX 10TH AVE S"^^xsd:string ;
+    :caseNumber "24-715046"^^xsd:string ;
+    :occurredDate "2024-10-14T13:45:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-10-14T17:41:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715333> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0032XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-715333"^^xsd:string ;
+    :occurredDate "2024-10-18T01:05:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-10-18T11:27:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715502> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0032XX 18TH AVE S"^^xsd:string ;
+    :caseNumber "24-715502"^^xsd:string ;
+    :occurredDate "2024-10-17T16:30:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-10-21T11:23:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715602> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0035XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-715602"^^xsd:string ;
+    :occurredDate "2024-10-21T20:00:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-10-22T15:19:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715603> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0033XX ELLIOT AVE"^^xsd:string ;
+    :caseNumber "24-715603"^^xsd:string ;
+    :occurredDate "2024-10-22T16:15:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-10-22T18:14:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715742> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0032XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-715742"^^xsd:string ;
+    :occurredDate "2024-10-09T20:00:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Building "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-10-23T16:53:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-715876> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0010XX 37TH ST E"^^xsd:string ;
+    :caseNumber "24-715876"^^xsd:string ;
+    :occurredDate "2024-10-25T14:00:00+00:00"^^xsd:dateTime ;
+    :offense "All Other Larceny "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-10-26T12:16:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-716324> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0032XX 14TH AVE S"^^xsd:string ;
+    :caseNumber "24-716324"^^xsd:string ;
+    :occurredDate "2024-10-31T20:45:00+00:00"^^xsd:dateTime ;
+    :offense "Credit Card/Automated Teller Machine Fraud "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-11-01T14:00:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-716350> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0010XX 37TH ST E"^^xsd:string ;
+    :caseNumber "24-716350"^^xsd:string ;
+    :occurredDate "2024-10-30T10:00:00+00:00"^^xsd:dateTime ;
+    :offense "Theft From Motor Vehicle "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-11-01T18:19:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/24-716883> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> ;
+    :address "0032XX 16TH AVE S"^^xsd:string ;
+    :caseNumber "24-716883"^^xsd:string ;
+    :occurredDate "2024-11-08T16:30:00+00:00"^^xsd:dateTime ;
+    :offense "Intimidation "^^xsd:string ;
+    :precinct 3 ;
+    :reportedDate "2024-11-10T17:45:00+00:00"^^xsd:dateTime ;
+    :ward 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-000318> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0017XX 3RD AVE S"^^xsd:string ;
+    :caseNumber "25-000318"^^xsd:string ;
+    :occurredDate "2025-01-01T05:26:16+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-01-01T05:26:16+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-005146> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0001XX 18TH ST E"^^xsd:string ;
+    :caseNumber "25-005146"^^xsd:string ;
+    :occurredDate "2025-01-07T01:19:58+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-01-07T01:19:58+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-008564> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0001XX 18TH ST E"^^xsd:string ;
+    :caseNumber "25-008564"^^xsd:string ;
+    :occurredDate "2025-01-10T19:26:53+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-01-10T19:26:53+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-017488> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0001XX 18TH ST E"^^xsd:string ;
+    :caseNumber "25-017488"^^xsd:string ;
+    :occurredDate "2025-01-22T03:09:15+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-01-22T03:09:15+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-018334> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0001XX 18TH ST E"^^xsd:string ;
+    :caseNumber "25-018334"^^xsd:string ;
+    :occurredDate "2025-01-23T02:58:10+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-01-23T02:58:10+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-026761> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX NICOLLET AVE"^^xsd:string ;
+    :caseNumber "25-026761"^^xsd:string ;
+    :occurredDate "2025-02-01T19:24:05+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-02-01T19:24:05+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-038158> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0018XX NICOLLET AVE"^^xsd:string ;
+    :caseNumber "25-038158"^^xsd:string ;
+    :occurredDate "2025-02-15T06:41:16+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-02-15T06:41:16+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-064106> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0018XX LASALLE AVE"^^xsd:string ;
+    :caseNumber "25-064106"^^xsd:string ;
+    :occurredDate "2025-03-15T00:28:29+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-03-15T00:28:29+00:00"^^xsd:dateTime ;
+    :ward 7 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-078715> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0001XX 18TH ST E"^^xsd:string ;
+    :caseNumber "25-078715"^^xsd:string ;
+    :occurredDate "2025-03-29T06:57:34+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-03-29T06:57:34+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-084597> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX 1ST AVE S"^^xsd:string ;
+    :caseNumber "25-084597"^^xsd:string ;
+    :occurredDate "2025-04-03T23:52:28+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-04-03T23:52:28+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-100696> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0001XX 18TH ST E"^^xsd:string ;
+    :caseNumber "25-100696"^^xsd:string ;
+    :occurredDate "2025-04-19T05:12:56+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-04-19T05:12:56+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-102305> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0003XX FRANKLIN AVE W"^^xsd:string ;
+    :caseNumber "25-102305"^^xsd:string ;
+    :occurredDate "2025-04-20T21:34:23+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-04-20T21:34:23+00:00"^^xsd:dateTime ;
+    :ward 10 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-121317> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX NICOLLET AVE"^^xsd:string ;
+    :caseNumber "25-121317"^^xsd:string ;
+    :occurredDate "2025-05-08T00:36:23+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-05-08T00:36:23+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-162407> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX 1ST AVE S"^^xsd:string ;
+    :caseNumber "25-162407"^^xsd:string ;
+    :occurredDate "2025-06-14T21:07:15+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-06-14T21:07:15+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-164818> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0017XX 3RD AVE S"^^xsd:string ;
+    :caseNumber "25-164818"^^xsd:string ;
+    :occurredDate "2025-06-17T05:15:53+00:00"^^xsd:dateTime ;
+    :offense "ShotSpotter Activation (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-06-17T05:15:53+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-192345> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "000XX 19TH ST E"^^xsd:string ;
+    :caseNumber "25-192345"^^xsd:string ;
+    :occurredDate "2025-07-11T19:01:32+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-07-11T19:01:32+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-192761> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0019XX 3RD AVE S"^^xsd:string ;
+    :caseNumber "25-192761"^^xsd:string ;
+    :occurredDate "2025-07-12T01:15:37+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-07-12T01:15:37+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/incident/25-250407> a :CrimeIncident ;
+    bfo:BFO_0000066 <https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> ;
+    :address "0017XX 3RD AVE S"^^xsd:string ;
+    :caseNumber "25-250407"^^xsd:string ;
+    :occurredDate "2025-09-01T22:29:06+00:00"^^xsd:dateTime ;
+    :offense "Sound of Shots Fired (P)"^^xsd:string ;
+    :precinct 5 ;
+    :reportedDate "2025-09-01T22:29:06+00:00"^^xsd:dateTime ;
+    :ward 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/1> a :MinneapolisNeighborhood ;
+    :areaSize 2586873.012 ;
+    :neighborhoodName "Shingle Creek"^^xsd:string ;
+    :neighborhoodNumber 1 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/11> a :MinneapolisNeighborhood ;
+    :areaSize 7769663.461 ;
+    :neighborhoodName "Columbia Park"^^xsd:string ;
+    :neighborhoodNumber 11 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/12> a :MinneapolisNeighborhood ;
+    :areaSize 4581583.242 ;
+    :neighborhoodName "Waite Park"^^xsd:string ;
+    :neighborhoodNumber 12 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/13> a :MinneapolisNeighborhood ;
+    :areaSize 3646205.813 ;
+    :neighborhoodName "Marshall Terrace"^^xsd:string ;
+    :neighborhoodNumber 13 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/14> a :MinneapolisNeighborhood ;
+    :areaSize 1463844.672 ;
+    :neighborhoodName "Bottineau"^^xsd:string ;
+    :neighborhoodNumber 14 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/15> a :MinneapolisNeighborhood ;
+    :areaSize 2762743.879 ;
+    :neighborhoodName "Holland"^^xsd:string ;
+    :neighborhoodNumber 15 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/16> a :MinneapolisNeighborhood ;
+    :areaSize 3455233.516 ;
+    :neighborhoodName "Audubon Park"^^xsd:string ;
+    :neighborhoodNumber 16 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/17> a :MinneapolisNeighborhood ;
+    :areaSize 1995455.016 ;
+    :neighborhoodName "Sheridan"^^xsd:string ;
+    :neighborhoodNumber 17 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/18> a :MinneapolisNeighborhood ;
+    :areaSize 1598296.023 ;
+    :neighborhoodName "Logan Park"^^xsd:string ;
+    :neighborhoodNumber 18 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/19> a :MinneapolisNeighborhood ;
+    :areaSize 3124688.891 ;
+    :neighborhoodName "Windom Park"^^xsd:string ;
+    :neighborhoodNumber 19 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/2> a :MinneapolisNeighborhood ;
+    :areaSize 4164945.086 ;
+    :neighborhoodName "Lind - Bohanon"^^xsd:string ;
+    :neighborhoodNumber 2 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/20> a :MinneapolisNeighborhood ;
+    :areaSize 3792218.875 ;
+    :neighborhoodName "Northeast Park"^^xsd:string ;
+    :neighborhoodNumber 20 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/21> a :MinneapolisNeighborhood ;
+    :areaSize 2533499.199 ;
+    :neighborhoodName "St. Anthony West"^^xsd:string ;
+    :neighborhoodNumber 21 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/22> a :MinneapolisNeighborhood ;
+    :areaSize 1045666.547 ;
+    :neighborhoodName "St. Anthony East"^^xsd:string ;
+    :neighborhoodNumber 22 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/23> a :MinneapolisNeighborhood ;
+    :areaSize 1174157.023 ;
+    :neighborhoodName "Beltrami"^^xsd:string ;
+    :neighborhoodNumber 23 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/24> a :MinneapolisNeighborhood ;
+    :areaSize 4127460.031 ;
+    :neighborhoodName "Jordan"^^xsd:string ;
+    :neighborhoodNumber 24 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/25> a :MinneapolisNeighborhood ;
+    :areaSize 4897950.457 ;
+    :neighborhoodName "Hawthorne"^^xsd:string ;
+    :neighborhoodNumber 25 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/26> a :MinneapolisNeighborhood ;
+    :areaSize 5487249.762 ;
+    :neighborhoodName "Willard - Hay"^^xsd:string ;
+    :neighborhoodNumber 26 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/27> a :MinneapolisNeighborhood ;
+    :areaSize 5497687.484 ;
+    :neighborhoodName "Near - North"^^xsd:string ;
+    :neighborhoodNumber 27 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/28> a :MinneapolisNeighborhood ;
+    :areaSize 2946514.758 ;
+    :neighborhoodName "Harrison"^^xsd:string ;
+    :neighborhoodNumber 28 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/29> a :MinneapolisNeighborhood ;
+    :areaSize 1066209.418 ;
+    :neighborhoodName "Sumner - Glenwood"^^xsd:string ;
+    :neighborhoodNumber 29 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/3> a :MinneapolisNeighborhood ;
+    :areaSize 3546230.137 ;
+    :neighborhoodName "Victory"^^xsd:string ;
+    :neighborhoodNumber 3 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/31> a :MinneapolisNeighborhood ;
+    :areaSize 2420995.289 ;
+    :neighborhoodName "Loring Park"^^xsd:string ;
+    :neighborhoodNumber 31 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/33> a :MinneapolisNeighborhood ;
+    :areaSize 1960440.84 ;
+    :neighborhoodName "Elliot Park"^^xsd:string ;
+    :neighborhoodNumber 33 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/34> a :MinneapolisNeighborhood ;
+    :areaSize 1297507.496 ;
+    :neighborhoodName "Nicollet Island - East Bank"^^xsd:string ;
+    :neighborhoodNumber 34 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/35> a :MinneapolisNeighborhood ;
+    :areaSize 4331243.504 ;
+    :neighborhoodName "Marcy Holmes"^^xsd:string ;
+    :neighborhoodNumber 35 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/37> a :MinneapolisNeighborhood ;
+    :areaSize 5839385.906 ;
+    :neighborhoodName "Como"^^xsd:string ;
+    :neighborhoodNumber 37 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/38> a :MinneapolisNeighborhood ;
+    :areaSize 2971661.543 ;
+    :neighborhoodName "Cedar Riverside"^^xsd:string ;
+    :neighborhoodNumber 38 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/39> a :MinneapolisNeighborhood ;
+    :areaSize 6595015.793 ;
+    :neighborhoodName "Prospect Park - East River Road"^^xsd:string ;
+    :neighborhoodNumber 39 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/4> a :MinneapolisNeighborhood ;
+    :areaSize 4793373.598 ;
+    :neighborhoodName "Webber - Camden"^^xsd:string ;
+    :neighborhoodNumber 4 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/40> a :MinneapolisNeighborhood ;
+    :areaSize 3396221.055 ;
+    :neighborhoodName "University of Minnesota"^^xsd:string ;
+    :neighborhoodNumber 40 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/41> a :MinneapolisNeighborhood ;
+    :areaSize 3702673.105 ;
+    :neighborhoodName "Cedar - Isles - Dean"^^xsd:string ;
+    :neighborhoodNumber 41 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/42> a :MinneapolisNeighborhood ;
+    :areaSize 3406933.68 ;
+    :neighborhoodName "Kenwood"^^xsd:string ;
+    :neighborhoodNumber 42 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/43> a :MinneapolisNeighborhood ;
+    :areaSize 3129683.113 ;
+    :neighborhoodName "Lowry Hill"^^xsd:string ;
+    :neighborhoodNumber 43 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/44> a :MinneapolisNeighborhood ;
+    :areaSize 1759583.73 ;
+    :neighborhoodName "East Isles"^^xsd:string ;
+    :neighborhoodNumber 44 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/45> a :MinneapolisNeighborhood ;
+    :areaSize 2127278.422 ;
+    :neighborhoodName "Lowry Hill East"^^xsd:string ;
+    :neighborhoodNumber 45 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/46> a :MinneapolisNeighborhood ;
+    :areaSize 2267811.539 ;
+    :neighborhoodName "East Bde Maka Ska"^^xsd:string ;
+    :neighborhoodNumber 46 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/47> a :MinneapolisNeighborhood ;
+    :areaSize 1902947.484 ;
+    :neighborhoodName "South Uptown"^^xsd:string ;
+    :neighborhoodNumber 47 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/49> a :MinneapolisNeighborhood ;
+    :areaSize 3447654.605 ;
+    :neighborhoodName "West Maka Ska"^^xsd:string ;
+    :neighborhoodNumber 49 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/5> a :MinneapolisNeighborhood ;
+    :areaSize 1935873.844 ;
+    :neighborhoodName "Cleveland"^^xsd:string ;
+    :neighborhoodNumber 5 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/50> a :MinneapolisNeighborhood ;
+    :areaSize 6689057.551 ;
+    :neighborhoodName "Bryn - Mawr"^^xsd:string ;
+    :neighborhoodNumber 50 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/51> a :MinneapolisNeighborhood ;
+    :areaSize 4189809.336 ;
+    :neighborhoodName "Whittier"^^xsd:string ;
+    :neighborhoodNumber 51 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/53> a :MinneapolisNeighborhood ;
+    :areaSize 2501101.539 ;
+    :neighborhoodName "Lyndale"^^xsd:string ;
+    :neighborhoodNumber 53 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/54> a :MinneapolisNeighborhood ;
+    :areaSize 3014661.801 ;
+    :neighborhoodName "Central"^^xsd:string ;
+    :neighborhoodNumber 54 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/57> a :MinneapolisNeighborhood ;
+    :areaSize 1546416.75 ;
+    :neighborhoodName "Bryant"^^xsd:string ;
+    :neighborhoodNumber 57 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/58> a :MinneapolisNeighborhood ;
+    :areaSize 1908940.922 ;
+    :neighborhoodName "Bancroft"^^xsd:string ;
+    :neighborhoodNumber 58 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/59> a :MinneapolisNeighborhood ;
+    :areaSize 4216023.43 ;
+    :neighborhoodName "Standish"^^xsd:string ;
+    :neighborhoodNumber 59 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/6> a :MinneapolisNeighborhood ;
+    :areaSize 2887427.379 ;
+    :neighborhoodName "Folwell"^^xsd:string ;
+    :neighborhoodNumber 6 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/60> a :MinneapolisNeighborhood ;
+    :areaSize 5218462.426 ;
+    :neighborhoodName "Seward"^^xsd:string ;
+    :neighborhoodNumber 60 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/61> a :MinneapolisNeighborhood ;
+    :areaSize 4409395.219 ;
+    :neighborhoodName "Longfellow"^^xsd:string ;
+    :neighborhoodNumber 61 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/62> a :MinneapolisNeighborhood ;
+    :areaSize 3422493.387 ;
+    :neighborhoodName "Cooper"^^xsd:string ;
+    :neighborhoodNumber 62 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/63> a :MinneapolisNeighborhood ;
+    :areaSize 5496587.746 ;
+    :neighborhoodName "Howe"^^xsd:string ;
+    :neighborhoodNumber 63 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/64> a :MinneapolisNeighborhood ;
+    :areaSize 6411835.324 ;
+    :neighborhoodName "Hiawatha"^^xsd:string ;
+    :neighborhoodNumber 64 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/65> a :MinneapolisNeighborhood ;
+    :areaSize 3581531.98 ;
+    :neighborhoodName "Tangletown"^^xsd:string ;
+    :neighborhoodNumber 65 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/66> a :MinneapolisNeighborhood ;
+    :areaSize 3822229.805 ;
+    :neighborhoodName "Armatage"^^xsd:string ;
+    :neighborhoodNumber 66 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/67> a :MinneapolisNeighborhood ;
+    :areaSize 3317391.582 ;
+    :neighborhoodName "Kenny"^^xsd:string ;
+    :neighborhoodNumber 67 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/68> a :MinneapolisNeighborhood ;
+    :areaSize 3790629.445 ;
+    :neighborhoodName "Windom"^^xsd:string ;
+    :neighborhoodNumber 68 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/69> a :MinneapolisNeighborhood ;
+    :areaSize 7153675.281 ;
+    :neighborhoodName "Linden Hills"^^xsd:string ;
+    :neighborhoodNumber 69 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/7> a :MinneapolisNeighborhood ;
+    :areaSize 3174622.348 ;
+    :neighborhoodName "McKinley"^^xsd:string ;
+    :neighborhoodNumber 7 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/70> a :MinneapolisNeighborhood ;
+    :areaSize 6417839.648 ;
+    :neighborhoodName "East Harriet"^^xsd:string ;
+    :neighborhoodNumber 70 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/71> a :MinneapolisNeighborhood ;
+    :areaSize 4308566.789 ;
+    :neighborhoodName "King Field"^^xsd:string ;
+    :neighborhoodNumber 71 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/72> a :MinneapolisNeighborhood ;
+    :areaSize 4516443.227 ;
+    :neighborhoodName "Fulton"^^xsd:string ;
+    :neighborhoodNumber 72 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/73> a :MinneapolisNeighborhood ;
+    :areaSize 5139877.133 ;
+    :neighborhoodName "Lynnhurst"^^xsd:string ;
+    :neighborhoodNumber 73 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/74> a :MinneapolisNeighborhood ;
+    :areaSize 1528751.449 ;
+    :neighborhoodName "Regina"^^xsd:string ;
+    :neighborhoodNumber 74 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/75> a :MinneapolisNeighborhood ;
+    :areaSize 3634655.984 ;
+    :neighborhoodName "Northrop"^^xsd:string ;
+    :neighborhoodNumber 75 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/76> a :MinneapolisNeighborhood ;
+    :areaSize 4705807.645 ;
+    :neighborhoodName "Ericsson"^^xsd:string ;
+    :neighborhoodNumber 76 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/77> a :MinneapolisNeighborhood ;
+    :areaSize 1785617.109 ;
+    :neighborhoodName "Field"^^xsd:string ;
+    :neighborhoodNumber 77 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/78> a :MinneapolisNeighborhood ;
+    :areaSize 1699077.199 ;
+    :neighborhoodName "Page"^^xsd:string ;
+    :neighborhoodNumber 78 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/79> a :MinneapolisNeighborhood ;
+    :areaSize 2628768.168 ;
+    :neighborhoodName "Hale"^^xsd:string ;
+    :neighborhoodNumber 79 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/8> a :MinneapolisNeighborhood ;
+    :areaSize 1421622.945 ;
+    :neighborhoodName "Humboldt Industrial Area"^^xsd:string ;
+    :neighborhoodNumber 8 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/80> a :MinneapolisNeighborhood ;
+    :areaSize 4547968.094 ;
+    :neighborhoodName "Keewaydin"^^xsd:string ;
+    :neighborhoodNumber 80 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/81> a :MinneapolisNeighborhood ;
+    :areaSize 3077051.852 ;
+    :neighborhoodName "Minnehaha"^^xsd:string ;
+    :neighborhoodNumber 81 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/82> a :MinneapolisNeighborhood ;
+    :areaSize 5318814.902 ;
+    :neighborhoodName "Diamond Lake"^^xsd:string ;
+    :neighborhoodNumber 82 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/83> a :MinneapolisNeighborhood ;
+    :areaSize 3743076.953 ;
+    :neighborhoodName "Wenonah"^^xsd:string ;
+    :neighborhoodNumber 83 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/84> a :MinneapolisNeighborhood ;
+    :areaSize 2785209.547 ;
+    :neighborhoodName "Morris Park"^^xsd:string ;
+    :neighborhoodNumber 84 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/85> a :MinneapolisNeighborhood ;
+    :areaSize 5452599.184 ;
+    :neighborhoodName "Mid - City Industrial"^^xsd:string ;
+    :neighborhoodNumber 85 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/86> a :MinneapolisNeighborhood ;
+    :areaSize 4425116.25 ;
+    :neighborhoodName "North Loop"^^xsd:string ;
+    :neighborhoodNumber 86 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/87> a :MinneapolisNeighborhood ;
+    :areaSize 3853389.949 ;
+    :neighborhoodName "Downtown West"^^xsd:string ;
+    :neighborhoodNumber 87 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/88> a :MinneapolisNeighborhood ;
+    :areaSize 1903728.598 ;
+    :neighborhoodName "Downtown East"^^xsd:string ;
+    :neighborhoodNumber 88 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/89> a :MinneapolisNeighborhood ;
+    :areaSize 2344520.504 ;
+    :neighborhoodName "Ventura Village"^^xsd:string ;
+    :neighborhoodNumber 89 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/9> a :MinneapolisNeighborhood ;
+    :areaSize 1540250.574 ;
+    :neighborhoodName "Camden Industrial"^^xsd:string ;
+    :neighborhoodNumber 9 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/90> a :MinneapolisNeighborhood ;
+    :areaSize 1979108.059 ;
+    :neighborhoodName "Phillips West"^^xsd:string ;
+    :neighborhoodNumber 90 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/91> a :MinneapolisNeighborhood ;
+    :areaSize 1917139.719 ;
+    :neighborhoodName "Midtown Phillips"^^xsd:string ;
+    :neighborhoodNumber 91 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/92> a :MinneapolisNeighborhood ;
+    :areaSize 2071045.289 ;
+    :neighborhoodName "East Phillips"^^xsd:string ;
+    :neighborhoodNumber 92 .
+
 :Neighborhood a owl:Class ;
     rdfs:label "Neighborhood" ;
     rdfs:comment "A fiat geographic region defined by administrative boundaries within a populated place." ;
     rdfs:subClassOf bfo:BFO_0000029 .
 
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> a :MinneapolisNeighborhood ;
+    :areaSize 961762.8164 ;
+    :neighborhoodName "Steven's Square - Loring Heights"^^xsd:string ;
+    :neighborhoodNumber 32 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> a :MinneapolisNeighborhood ;
+    :areaSize 3786206.148 ;
+    :neighborhoodName "Powderhorn Park"^^xsd:string ;
+    :neighborhoodNumber 55 .
+
+<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> a :MinneapolisNeighborhood ;
+    :areaSize 2357224.813 ;
+    :neighborhoodName "Corcoran"^^xsd:string ;
+    :neighborhoodNumber 56 .
+
+:MinneapolisNeighborhood a owl:Class ;
+    rdfs:label "Minneapolis Neighborhood" ;
+    rdfs:comment "A neighborhood whose boundaries are defined by the City of Minneapolis and the Minneapolis Park and Recreation Board." ;
+    rdfs:subClassOf :Neighborhood .
+
 :CrimeIncident a owl:Class ;
     rdfs:label "Crime Incident" ;
     rdfs:comment "An intentional act in which at least one agent plays a causative role, occurring at a location and time, and classified by type according to a reporting standard." ;
     rdfs:subClassOf bfo:BFO_0000015 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/32> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 961762.8164 ;
-    mpls:neighborhoodName "Steven's Square - Loring Heights"^^xsd:string ;
-    mpls:neighborhoodNumber 32 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/55> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 3786206.148 ;
-    mpls:neighborhoodName "Powderhorn Park"^^xsd:string ;
-    mpls:neighborhoodNumber 55 .
-
-<https://ian-reinl.github.io/mpls-crime-ontology/data/neighborhood/56> a mpls:MinneapolisNeighborhood ;
-    mpls:areaSize 2357224.813 ;
-    mpls:neighborhoodName "Corcoran"^^xsd:string ;
-    mpls:neighborhoodNumber 56 .
 
